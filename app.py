@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "<center><h1>Hello, Azure Web Apps!</h1></center>"
+    return "<center><h1>Hello, Azure Web Apps! Rutik</h1></center>"
 
 if __name__ == "__main__":
     app.run()
